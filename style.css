@@ -1,0 +1,49 @@
+h1 {
+font-size: 20px;
+}
+
+p {
+font-size: 14px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4C2C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.outer-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 1000px;
+    border: 10px solid #000000;
+    border-radius: 10px;
+}
+
+.inner-box {
+    width: 32%;
+    height: 11%;
+    margin: 2%;
+    background-color: #f5f5dc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWFexZfK-5_IdTGycfysb7HQMsb56JI-Te7byz1ejlCA&s);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-box {
+    padding: 20px;
+    text-align: center;
+}
